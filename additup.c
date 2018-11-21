@@ -28,6 +28,9 @@ int main(){
     tailm = (struct BigInt*)malloc(sizeof(struct BigInt));
     headn = (struct BigInt*)malloc(sizeof(struct BigInt));
     tailn = (struct BigInt*)malloc(sizeof(struct BigInt));
+    if(headm==NULL||headn==NULL||tailm==NULL||tailn==NULL){
+	exit(3);
+    }
     loopn = headn;
     headm->next = tailm;
     headn->next = tailn;
