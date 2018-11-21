@@ -5,3 +5,8 @@ We affirm that we've adhered to the Honor Code in this assignment.
 1.additup.c
 This program reads lines of characters, count only digits and display the current sum after each line.
 
+2.multi.c
+This program reads in lines of characters, and prints the result of the last number times the number on each line. If it reads no valid number, the result equals the last result times 1. 
+Valgrind shows memory leak but we failed to solve it.
+
+Estimated hours: 16
